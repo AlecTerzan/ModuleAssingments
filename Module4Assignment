@@ -1,0 +1,10 @@
+# Alec Terzan
+# CIS 129
+# Create a script that uses the Turing Test by asking a question followed by a response to the user input.
+
+input('What is your problem?\n')
+answer = input('Have you had this problem before (yes or no) ? \n')
+if answer == 'yes':
+  print('Well, you have it again.\n')
+else if answer == 'no':
+  print('Well, you have it now.\n')
